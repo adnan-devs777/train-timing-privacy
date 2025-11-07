@@ -235,6 +235,36 @@ section {
     margin-bottom: 2rem;
 }
 
+.screenshot-item {
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.screenshot-item:hover {
+    transform: translateY(-10px);
+}
+
+.screenshot-item img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+    border: 2px solid var(--primary-color);
+    transition: box-shadow 0.3s ease;
+}
+
+.screenshot-item img:hover {
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.25);
+}
+
+.screenshot-caption {
+    margin-top: 1rem;
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--text-dark);
+}
+
 .screenshot-placeholder {
     aspect-ratio: 9/19;
     background: linear-gradient(135deg, #E3F2FD 0%, #BBDEFB 100%);
