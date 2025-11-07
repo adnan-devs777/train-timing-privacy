@@ -398,6 +398,57 @@ section {
 }
 
 /* ===========================
+   Disclaimer Section
+   =========================== */
+.disclaimer {
+    background-color: #FFF3E0;
+}
+
+.disclaimer-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.disclaimer-card {
+    background-color: var(--white);
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: var(--shadow);
+    border-left: 4px solid #FF9800;
+}
+
+.disclaimer-card h3 {
+    color: #E65100;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+
+.disclaimer-card p {
+    color: var(--text-dark);
+    margin-bottom: 1rem;
+    line-height: 1.7;
+}
+
+.disclaimer-card ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 1.5rem 0;
+}
+
+.disclaimer-card li {
+    padding: 0.5rem 0;
+    padding-left: 2rem;
+    position: relative;
+    color: var(--text-dark);
+}
+
+.disclaimer-card li:before {
+    position: absolute;
+    left: 0;
+    font-weight: bold;
+}
+
+/* ===========================
    Contact Section
    =========================== */
 .contact {
